@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 
-spotify_df = pd.read_csv("spotify-2023.csv", encoding='latin1')
+df = pd.read_csv("spotify-2023.csv", encoding='latin1')
 
 st.header('Spotify\'s Top Popular Songs For 2023', divider='rainbow')          
 st.header(':green[My Software Dev Project] - Sprint 4')
